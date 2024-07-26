@@ -1,18 +1,15 @@
 import Attendance from "./Attendance";
 import Classes from "./Classes";
 
-
-function App() {
-  return (
+function App(){
+  return(
     <>
-      <h1>
-        branch-demo
+      <h>
+        branch-demo1
         <Classes />
         <Attendance />
-      </h1>
+      </h>
     </>
-    
   );
 }
-
 export default App;
